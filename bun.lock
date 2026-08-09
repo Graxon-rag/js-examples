@@ -5,7 +5,7 @@
     "": {
       "name": "graxon-js-examples",
       "dependencies": {
-        "graxon": "../js",
+        "graxon": "^0.0.2",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -22,7 +22,7 @@
 
     "bun-types": ["bun-types@1.3.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ=="],
 
-    "graxon": ["graxon@file:../js", { "devDependencies": { "@types/node": "^26.2.0" } }],
+    "graxon": ["graxon@0.0.2", "", {}, "sha512-wHLF+ZiOTTLdAyxGteDIpY9K5iFMYZLKSeBFUNDAbFUjwmw9EeLAecRvpII2h8MeP/j2Kq8dJYvLJ9SfA9yiWw=="],
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
